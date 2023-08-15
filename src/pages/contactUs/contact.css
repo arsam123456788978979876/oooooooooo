@@ -1,0 +1,110 @@
+.contactus {
+    padding-top: 155px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ ul , li {
+    list-style: none;
+ }
+ .contactus .wrapper .bigtitle h1 {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.contactus span{
+    color: #d6d6d6;
+    font-size: 20px;
+}
+.contactus .information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+.contactus .wrapper h3 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.contactus-part2 .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.contactus .wrapper p {
+    color:#d6d6d6;
+    font-size: 17px;
+}
+.contactus-part2 h1 {
+    padding-top: 30px;
+    font-size: 50px;
+}
+.contactus-part2 h4 {
+    font-size: 20px;
+}
+.contactus-part2 ul.flex li:nth-child(1) {
+    padding-top: 20px;
+}
+.filling-out-the-planks ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.filling-out-the-planks2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.filling-out-the-planks2 ul li input , .filling-out-the-planks ul li input {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition:all  0.3s;
+    border: 10px solid rgb(0, 0, 0);
+}
+.filling-out-the-planks2 ul li input:focus , .filling-out-the-planks ul li input:focus {
+    border: 3px solid #fff ;
+    outline: 3px solid #fff;
+    outline-offset: 5px;
+}
+.nazarsanji {
+    padding-top: 6%;
+    padding-bottom: 160px;
+    overflow: hidden;
+}   
+.nazarsanji textarea {
+    width: 100%;
+    height: 220px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding:30px 20px;
+    outline: none;
+    border: rgb(0, 0, 0) 30px solid;
+    transition:all 0.7s;
+}
+.nazarsanji button {
+    font-size: 40px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+.nazarsanji button:hover {
+    outline: 3px solid #fff;
+    outline-offset: 5px;
+    background-color: black;
+    color: #fff;
+}
+.nazarsanji textarea:focus {
+    border: #fff 10px solid;
+}

@@ -1,0 +1,41 @@
+.aboutUs .part1-aboutUs{
+    text-align: center;
+}
+.aboutUs {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutUs .part1-aboutUs h1 {
+    font-size: 40px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #fff;
+    border-radius: 10%;
+}
+.aboutUs .part1-aboutUs h3 {
+    padding-top: 30px;
+    font-size: 25px;
+}
+.part2-aboutUs {
+    border: 3px solid white;
+    margin: 100px 0;
+    border-radius: 10px;
+}
+.part2-aboutUs ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.part2-aboutUs ul {
+    padding: 30px;
+}
+.part3-aboutUs .h {
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.part3-aboutUs .theme {
+    font-size: 50px;
+    border-bottom:5px solid  ;
+    padding-bottom: 30px;
+}

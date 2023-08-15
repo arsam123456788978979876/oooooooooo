@@ -1,0 +1,819 @@
+@media only screen and (max-width:1530px){
+    .header {
+        position: relative;
+        width: 100%;
+        height: 650px;
+    }
+    .search-input {
+        margin-top: 200px;
+    }
+    .search-input input {
+        font-size: 25px;
+        width: 30%;
+    }
+    .desgin-wrapper {
+        max-width: 400px;
+    }
+    .result {
+        height: 272px;
+    }
+    div.result ul li img {
+        width: 170px;
+        height: 250px;
+    }
+    .skew {
+        left: 20px;
+        width: 96%;
+    }
+    .skew2 {
+        left: 20px;
+        width: 96%;
+    }
+    .skew3 {
+            left: 20px;
+            width: 96%;
+    }
+    .part2 .background {
+        height: 769px;
+    }
+    .part2 .title p {
+        font-size: 25px;
+        line-height: 62px;
+    }
+    .part2 .title h1 {
+        font-size: 40px;
+        margin-top: 26px;
+        padding-bottom: 2px;
+    }
+    .part3 .title ol {
+        margin-top: 60px;
+    }
+    .part3 .wrapper1 .title div h1 {
+        font-size: 50px;
+    }
+    .part3 .title {
+        width: 540px;
+        margin-left: 40px;
+    }
+    .part3 .title div ol li p {
+        font-size: 26px;
+    }
+    .part3 .wrapper1 .title div .button {
+        margin-top: 182px;
+    }
+    .wrapper1 {
+        max-width: 1327px;
+    }
+    .signin {
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+    }
+    .background1 ul {
+        padding-right: 30px;
+        margin-top: 223px;
+        gap: 76px;
+    }
+    .background-image .wrapper ul {
+        padding-bottom: 182px;
+        padding-right: 40px;
+        justify-content: space-between;
+    }
+    .input {
+        padding-left: 40px;
+    }
+    .arsamsWebsite {
+        transform: rotateX(0deg);
+        transition: none;
+        padding: 20px;
+    }
+    .father2 {
+        padding: 20px 32px;
+    }
+    .icons {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .partx {
+        top: 100px;
+        left: 190px;
+    }
+    .up-down {
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .firstTitle {
+        padding-left: 30px;
+    }
+    .signin1 {
+        border: 5px solid #fff;
+        text-align: center;
+        border-radius: 10%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        width: 600px;
+    }
+    .contactus .wrapper .bigtitle {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contactus .information {
+        padding-left: 30px;
+    }
+    .contactus .wrapper h3 {
+        padding-left: 30px;
+    }
+    .contactus .wrapper p {
+        padding-left: 30px;
+    }
+    .contactus-part2 h1 {
+        padding-left: 30px;
+    }
+    .nazarsanji {
+        padding-bottom: 160px;
+    }
+    .part2-aboutUs {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .part3-aboutUs {
+        margin: 0 30px;
+        padding-bottom: 140px;
+    }
+    .icons {
+        padding-top: 15px;
+    }
+    .aboutUs .part1-aboutUs h3 {
+        padding-top: 30px;
+        font-size: 25px;
+        margin: 0 30px;
+    }
+    .part3 {
+        position: relative;
+        width: 100%;
+        height: 768px;
+    }
+    .picture {
+        background: url(../../public/backgrounds/spidermannnnnnnnnnn.png);
+    }
+}
+@media only screen and (max-width:1230px) {
+    .part1 {
+        height: 753px;
+    }
+    .skew3 , .skew2  , .skew{
+        left: 68px;
+        width: 90%;
+        height: 82px;
+    }
+    .skew h1 , .skew2 h1, .skew3 h1{
+        padding-top: 19px;
+    }
+    .skew3 {
+        top: 470px;
+    }
+    .skew2 {
+        top: 274px;
+    }
+    .skew4 {
+        top: 610px;
+    }
+    .skew4 h1 {
+        font-size: 40px;
+    }
+    .information h1 {
+        margin: 0 30px;
+    }
+    .background-image .wrapper ul li img {
+        width: 200px;
+        height: 300px;
+    }
+    .background-image .wrapper ul {
+        padding-bottom: 135px;
+    }
+    .inputs-and-buttons1 {
+        padding: 30px 30px;
+    }
+    .inputs-and-buttons {
+        padding: 30px 30px;
+    }
+    .partx .poster img {
+        width: 406px;
+        height: 644px;
+    }
+    .partx {
+        top: 100px;
+        left: 100px;
+        gap: 60px;
+    }
+    .ul {
+        justify-content: space-between;
+    }
+    ul li:nth-child(2) {
+        padding-right: 30px;
+    }
+
+}
+@media only screen and (max-width:1030px){
+    .part2-aboutUs ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .part3 .wrapper1 .title div h1 {
+        font-size: 41px;
+    }
+    .part3 .title div ol li p {
+        font-size: 22px;
+    }
+    .part3 .wrapper1 .title div .button {
+        margin-top: 100px;
+    }
+    .part3 .title {
+        width: 468px;
+
+    }
+    .part3 {
+    position: relative;
+    width: 100%;
+    height: 658px;
+    }
+    .background-image {
+        height: auto;
+        width: 100%;
+    }
+    .header {
+        height: 551px;
+    }
+    .part1 {
+        height: 563px;
+    }
+    .information h1 {
+        font-size: 30px;
+    }
+    .skew3, .skew2, .skew {
+            left: 68px;
+            width: 90%;
+            height: 60px;
+    }
+    .information h1 {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .skew h1, .skew2 h1, .skew3 h1 {
+        padding-top: 7px;
+    }
+    .skew2 {
+        top: 246px;
+    }
+    .skew3 {
+        top: 417px;
+    }
+    .skew4 {
+        visibility: visible;
+        height: 0;
+    }
+    .logo {
+        z-index: 2;
+        margin-left: 80px;
+        font-size: 20px;
+    }
+    .result {
+        height: 169px;
+    }
+    div.result ul li img {
+        width: 110px;
+        height: 141px;
+    }
+    div.result ul li {
+        background: transparent;
+    }
+    .search-input input {
+        font-size: 20px;
+        width: 40%;
+    }
+    .search-input {
+        margin-top: 215px;
+    }
+    #downmenu {
+        top: 56px;
+        padding: 40px
+    }
+    .ul {
+        flex-direction: column;
+    }
+    ul li:nth-child(2) {
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width:870px) {
+    .useFlex .title2 {
+        font-size: 20px;
+    }
+    .more-information h1 {
+        font-size: 23px;
+    }
+    .part3 .title {
+        padding-top: 72px;
+    }
+    .part3 .wrapper1 .title div h1 {
+        font-size: 30px;
+    }
+    .part3 .title ol {
+        margin-top: 50px;
+    }
+    .part3 .title div ol li p {
+        font-size: 20px;
+    }
+    .part3 .title {
+        width: 363px;
+    }
+    .part3 .wrapper1 .title div .button button {
+        font-size: 23px;
+        padding: 30px 50px 30px 50px;
+    }
+    .part3 {
+        height: 590px;
+    }
+    div.result ul li img {
+    width: 138px;
+    height: 187px;
+    }
+    .partx .poster img {
+    width: 305px;
+    height: 488px;
+    }
+    .header-singlepage .backgrounds {
+        text-align: center;
+        height: 763px;
+    }
+    .header-singlepage .backgrounds::after {
+        height: 763px;
+    }
+    .useFlex {
+        gap: 24px;
+        padding-bottom: 15px;
+    }
+    .background1 ul {
+        margin-top: 120px;
+    }
+    .background1 ul li a h2 {
+        font-size: 48px;
+    }
+    .arsamsWebsite {
+        transform: rotateX(0deg);
+        transition: none;
+        padding: 20px;
+        visibility: hidden;
+        width: -webkit-fill-available;
+    }
+    .useFlex .title2 {
+        font-size: 20px;
+        padding-right: 30px;
+    }
+    .contactus-part2 h1 {
+        font-size: 30px;
+    }
+    .contactus-part2 h4 {
+        font-size: 18px;
+    }
+    .contactus .wrapper .bigtitle {
+        padding-left: 30px;
+        padding-right: 133px;
+    }
+    .filling-out-the-planks ul {
+        flex-wrap: wrap;
+    }
+    .filling-out-the-planks ul li input , .filling-out-the-planks2 ul li input  {
+        margin-left: 30px;
+    }
+    .filling-out-the-planks ul li:nth-child(2) , .filling-out-the-planks2 ul li:nth-child(2) {
+        margin-left: 0;
+        padding-right: 30px;
+    }
+    .filling-out-the-planks2 ul {
+        flex-wrap: wrap;
+    }
+    .ul li img {
+        margin-left: 30px;
+        
+    }
+    .ul li {
+        padding-bottom: 30px;
+    }
+    .dad a img {
+        width: 30px;
+        height: 30px;
+    }
+    .dad .title {
+        font-size: 25px;
+        padding-top: 0px;
+    }
+    .header2 .father2 a h1 {
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width:700px) {
+    .logo {
+        z-index: 2;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .menu h3 {
+        font-size: 20px;
+    }
+    .header {
+        height: 426px;
+    }
+    .search-input {
+        margin-top: 145px;
+    }
+    #downmenu {
+        top: 56px;
+        padding: 25px;
+    }
+    #downmenu a {
+        font-size: 23px;
+    }
+    .skew3, .skew2, .skew {
+        left: 49px;
+        height: 48px;
+    }
+    #hamberger div:nth-child(1), #hamberger div:nth-child(3) {
+        width: 35px;
+        border-bottom: 3px solid rgb(219 253 255)
+    }
+    #hamberger div:nth-child(2) {
+        width: 20px;
+        border-bottom: 3px solid rgb(219 253 25)
+    }
+    .header #hamberger.active2 div:nth-child(1), .header #hamberger.active2 div:nth-child(3) {
+        width: 21px;
+    }
+    .header #hamberger.active2 div:nth-child(2) {
+        width: 36px;
+    }
+    .part1 {
+        height: 432px;
+    }
+    .skew {
+        top: 60px;
+    }
+    .skew2 {
+    top: 185px;
+    }
+    .skew3 {
+        top: 316px;
+    }
+    .part2 .background {
+        height: 463px;
+    }
+    .background1 ul li a h2 {
+        font-size: 40px;
+    }
+    .background1 ul {
+        padding-right: 30px;
+        margin-top: 223px;
+        gap: 40px;
+    }
+    .background1 ul {
+        margin-top: 345px;
+    }
+    .signin {
+        border: 5px solid #fff;
+        text-align: center;
+        border-radius: 10%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        width: 600px;
+    }
+    .more-information h1 {
+        font-size: 20px;
+    }
+    .partx {
+        left: 27px;
+        top: 113px;
+        padding-right: 20px;
+    }
+    .partx .poster img {
+        width: 248px;
+        height: 391px;
+    }
+}
+@media only screen and (max-width:610px) {
+    .background1 ul li a h2 {
+        font-size: 35px;
+    }
+    .background1 ul li a:hover h2 , .background1 ul li a:focus h2 {
+        font-size: 35px;
+    }
+    .signin {
+        width: 356px;
+    }
+    .signin1 {
+        width: 356px;
+    }
+    .title h1 {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+    .title1 h1 {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+    .inputs-and-buttons input {
+        font-size: 20px;
+        width: 100px;
+    }
+    .inputs-and-buttons button {
+        font-size: 23px;
+    }
+    .inputs-and-buttons h3 {
+        font-size: 14px;
+    }
+
+    .inputs-and-buttons1 input {
+        font-size: 20px;
+        width: 100px;
+    }
+    .inputs-and-buttons1 button {
+        font-size: 23px;
+    }
+    .inputs-and-buttons1 h3 {
+        font-size: 14px;
+    }
+
+    .background1 ul {
+        margin-top: 153px;
+    }
+    .skew3, .skew2, .skew {
+        left: 32px;
+    }
+    .part2 .title h1{
+        padding-top: 0;
+        font-size: 30px;
+    }
+    .part2 .title p {
+        font-size: 15px;
+        line-height: 39px;
+    }
+    .part3 {
+        margin-top: 34px;
+        height: 494px;
+    }
+    .part3 .title {
+        width: 300px;
+        padding-top: 20px;
+        border: #fff double 10px;
+    }
+    .part3 .wrapper1 .title div h1 {
+        font-size: 24px;
+    }
+    .part3 .title ol {
+        padding: 15px;
+    }
+    .part3 .title div ol li p {
+        font-size: 18px;
+    }
+    .part3 .wrapper1 .title div .button {
+        margin-top: 50px;
+    }
+    .part3 .wrapper1 .title div .button button {
+        font-size: 19px;
+        padding: 20px 20px;
+    }
+    .information h1 {
+        font-size: 23px;
+    }
+    .header-singlepage .backgrounds {
+        text-align: center;
+        height: 647px;
+    }
+    .header-singlepage .backgrounds::after {
+        height: 647px;
+    }
+    #p1 h1, #p2 h1, #p3 h1 {
+        font-size: 22px;
+    }
+    
+}
+@media only screen and (max-width:580px) {
+    .search-input input {
+        font-size: 18px;
+        width: 50%;
+        padding: 10px;
+    }
+    .moreInfo .sq {
+        width: 146px;
+        height: 157px;
+    }
+    .moreInfo .sq div {
+        border-bottom: 50px solid rgb(255, 255, 255);
+        border-right: 25px solid transparent;
+        border-left: 25px solid transparent;
+    }
+    #downmenu a {
+        font-size: 20px;
+    }
+    .menu h3 {
+        font-size: 13px;
+    }
+    .logo {
+        z-index: 2;
+        margin-left: 80px;
+        font-size: 12px;
+    }
+    .search-input {
+        margin-top: 127px;
+    }
+    #hamberger {
+        gap: 6px;
+    }
+    #hamberger div:nth-child(1), #hamberger div:nth-child(3) {
+        border-bottom: 2px solid rgb(219 253 255);
+    }
+    #hamberger div:nth-child(2) {
+    width: 20px;
+    border-bottom: 2px solid rgb(219 253 25);
+    }
+    #downmenu {
+        top: 30px;
+    }
+    .useFlex .title2 {
+        font-size: 13px;
+    }
+    .background-image .wrapper .input input {
+        width: 200px;
+        font-size: 15px;
+    }
+    .background-image .wrapper ul li img {
+        width: 118px;
+        height: 177px;
+    }
+    .moreInfo h3{
+        font-size: 10px;
+    }
+    .moreInfo h2 {
+        color: #fff574;
+        font-size: 12px;
+    }
+    .moreInfo:hover {
+    opacity: 0.8;
+    height: 100%;
+    }
+    .moreInfo {
+    line-height: 20px;
+    }
+    .map img {
+    width: 129px;
+    height: 191px;
+    }
+    .map {
+        overflow: overlay;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        height: 287px;
+    }
+    .partx .poster img {
+        width: 180px;
+        height: 253px;
+    }
+    .header-singlepage .backgrounds {
+        height: 487px;
+    }
+    .header-singlepage .backgrounds::after {
+        height: 487px;
+    }
+    .more-information h1 {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .logo {
+        font-size: 10px;
+        margin-left: 25px;
+    }
+    .background1 ul li a:hover h2 , .background1 ul li a:focus h2 {
+        font-size: 34px;
+    }
+    .menu h3 {
+        font-size: 10px;
+    }
+    .menu {
+        gap: 10px;
+    }
+    .background1 ul {
+        margin-top: 87px;
+        gap: 63px;
+    }
+    .icons {
+        padding-top: 7px;
+    }
+    .dad .title {
+        font-size: 20px;
+    }
+    .background1 ul li a h2 {
+        font-size: 34px;
+    }
+    .ul li img {
+        width: 328px;
+        height: 160px;
+    }
+    .partx {
+        left: 19px;
+        top: 120px;
+        gap: 35px;
+    }
+    .ul {
+        gap: 0px;
+    }
+    .up-down #p1, .up-down #p2, .up-down #p3 {
+        padding: 10px 10px;
+    }
+    .firstTitle h1 {
+        font-size: 28px;
+    }
+    .header-singlepage .backgrounds {
+        height: 419px;
+    }
+    .header-singlepage .backgrounds::after {
+        height: 419px;
+    }
+    .part3 .title {
+        width: 200px;
+        margin-left: 20px;
+    }
+    .part3 .wrapper1 .title div h1 {
+        font-size: 16px;
+    }
+    .part3 .title div ol li p {
+        font-size: 12px;
+    }
+    .part3 .title ol {
+        margin-top: 15px;
+    }
+    .part3 .wrapper1 .title div .button button {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    .part3 {
+        height: 378px;
+    }
+    .information h1 {
+        font-size: 17px;
+    }
+    .useFlex .title2 {
+        font-size: 10px;
+    }
+    .input {
+        padding-left: 12px;
+    }
+    .background-image .wrapper .input input {
+        width: 184px;
+        font-size: 14px;
+    }
+    .header2 .father2 a h1 {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width:400px) {
+    .logo {
+        font-size: 9px;
+        margin-left: 0px;
+    }
+    .search-input input {
+        font-size: 15px;
+    }
+    .skew3, .skew2, .skew {
+        left: 17px;
+    }
+    .background1 ul li a h2 {
+        font-size: 27px;
+    }
+    .partx .poster img {
+        width: 160px;
+        height: 220px;
+    }
+    .more-information h1 {
+        font-size: 13px;
+    }
+    .ul li img {
+        margin-left: 0px;
+    }
+    .background1 ul li a:hover h2 , .background1 ul li a:focus h2 {
+        font-size: 27px;
+    }
+}

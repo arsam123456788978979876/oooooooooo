@@ -1,0 +1,116 @@
+.header-singlepage .backgrounds{
+    text-align: center;
+    height: 1000px;
+    position: relative;
+}
+.header-singlepage .backgrounds img {
+    width: 100%;
+    height: 100%;
+}
+.header-singlepage .backgrounds::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.partx {
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    top:100px ;
+    left: 700px;
+}
+.more-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.more-information span {
+    color: yellow;
+}
+.poster {
+    position: relative;
+}
+.moreInfo .sq div {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-bottom: 100px solid rgb(255, 255, 255);
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    padding-bottom: 5px;
+    transform: rotateZ(270deg);
+    transition: all 0.5s;
+}
+.moreInfo .sq {
+    border: 3px solid #fff;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.moreInfo .sq:hover div{
+    cursor: pointer;
+    transform: rotateZ(90deg);
+}
+.firstTitle h1 {
+    color: yellow;
+}
+.firstTitle {
+    padding-top: 50px;
+}
+.up-down {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+.up-down #p1 , .up-down #p2 , .up-down #p3{
+    border:3px solid #fff ;
+    padding: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#down , #down2 , #down3 {
+    visibility: hidden;
+    height: 0;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.active #down ,.active #down2 ,.active #down3 {
+    visibility: visible;
+    height: 50px;
+}
+#p1 h1, #p2 h1, #p3 h1{
+    font-size: 45px;
+}
+.ul {
+    display: flex;
+    gap: 100px;
+    padding: 30px 0 30px 0;
+    flex-wrap: wrap;
+}
+.ul li img {
+    width: 400px;
+    height: 200px;
+    border: #ff9d00 2px solid;
+    transition: all 0.5s;
+    margin-left: 30px;
+}
+.ul li img:hover , .ul li img:focus {
+    border: #ffffff 3px solid;
+}
+.ul li {
+    text-align: center;
+}

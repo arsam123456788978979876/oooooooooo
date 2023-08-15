@@ -1,0 +1,104 @@
+.background-image {
+    background-image: url(../images/outrun-neon-dark-background-purple-3840x2160-4523.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 1320px;
+    width: 100%;
+}
+.moreInfo {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s;
+    background-color: black;
+    width: 100%;
+    height: 80%;
+    padding: 35px 10px ;
+    
+    line-height: 46px;
+}
+.inf {
+    position: relative;
+}
+.moreInfo:hover {
+    opacity: 0.8;
+    height:100%;
+}
+.useFlex {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center ;
+    padding-top: 120px;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+.background-image .wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    z-index: 1;
+    position: relative;
+    padding-bottom: 600px;
+}
+.background-image .wrapper ul li img {
+    width: 250px;
+    height: 350px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.background-image .wrapper .input input {
+    padding: 10px;
+    width: 253px;
+    background: transparent;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: all 0.8s;
+    font-size: 20px;
+}
+.background-image .wrapper .input:focus input {
+    border-bottom: #fff;
+}
+.input {
+    position: relative;
+}
+.map {
+    overflow: overlay;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 500px;
+    padding: 41px;
+}
+.map  img {
+    width: 260px;
+    height: 340px;
+}
+.moreInfo span {
+    color: aqua;
+    text-decoration: underline;
+}
+.moreInfo h2 {
+    color: #fff574;
+}
+.useFlex .title2 {
+    font-size: 30px;
+}
+.arsamsWebsite a {
+    text-decoration: none;
+}
+.arsamsWebsite {
+    transform: rotateX(180deg);
+    transition: all 0.5s;
+    padding: 20px 20px 0 20px ;
+}
+.arsamsWebsite:hover  , .arsamsWebsite:focus{
+        transform: rotate(0deg);
+}
